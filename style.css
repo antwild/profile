@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Roboto:400,700');
+
+body {
+  background-color: #FFF7EE;
+  font-family: 'Roboto', sans-serif;
+  color: #28536B;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #7A9CC6;
+  font-family: 'Lato', serif;
+    text-shadow: 0 -1px -1px 0 #000
+
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+a {
+  color: #FFE787;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EFA00B;
+  transition: 0.3s;
+}
+
+.button {
+  background-color: #28536B;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #835806;
+}
+
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.white-card {
+  background-color: white;
+  margin: 60px 0px;
+  padding: 39px;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px gainsboro;
+  border: 1px solid gainsboro;
+}
+
+.center-text {
+  text-align: center;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  font-size: 60px;
+  display: inline-block;
+  list-style: none;
+  margin: 0 50px;
+}
+
+.fa-facebook {
+  color : #3B5998;
+}
+
+.fa-twitter {
+  color: #38A1F3;
+}
+
+.fa-instagram {
+  color: #DD2A7B;
+}
+
+.fa-facebook:hover {
+  color : #ADB9D3;
+  transition: 0.3s;
+}
+
+.fa-twitter:hover {
+  color: #0084B4;
+  transition: 0.3s;
+}
+
+.fa-instagram:hover {
+  color: #F58529;
+  transition: 0.3s;
+}
